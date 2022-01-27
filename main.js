@@ -30,7 +30,7 @@ function gotresult(error,result) {
     }
     else {console.log(result);
     document.getElementById("result_object").innerHTML=result[0].label;
-    document.getElementById("object_accuracy").innerHTML=result[0].confidence.toFixed(2);
+    document.getElementById("object_accuracy").innerHTML=result[0].confidence.toFixed(2)+"%";
     }
 
 }
