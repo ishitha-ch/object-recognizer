@@ -1,0 +1,12 @@
+.heading{width:80%;
+        font-size: 20px;
+}
+.name_of_objects,#result_object, #object_accuracy{color: purple;}
+body{border-color: purple;
+    background-color: lightpink;
+    color: navy;}
+#camera{border: 2px dashed black;
+        width: 350px;
+        height: 300px;}
+hr{height: 1px;
+background-color: white;}
